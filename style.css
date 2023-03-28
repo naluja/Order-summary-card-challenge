@@ -1,0 +1,99 @@
+body{
+    display:grid;
+    place-content: center;
+    height:100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+img{
+    width:100%;    
+    
+}
+h1{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.summary1{
+    color:hsl(224, 23%, 55%);
+    margin: 0px 10%;
+    font-size: 1.05rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+}
+.card{
+    display:flex;
+    background-color:hsl(225, 100%, 94%,50%);
+    padding:0.5rem 1.5rem;
+    overflow:hidden;
+    width:70%;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+
+}
+.card img{
+    width:40px;
+    margin-right:10px;
+}
+.first {
+    display: flex;
+    align-items: center;
+
+}
+.bold{
+    font-weight: 800;
+}
+.light{
+    color:hsl(224, 23%, 55%)
+}
+#payment{
+    width:80%;
+    background-color: hsl(245, 75%, 52%);
+    border:none;
+    padding: 0.8rem;
+    color:white;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size:0.8rem;
+    margin-bottom: 1rem;
+}
+#cancel{
+    text-decoration: none;
+    margin:1rem;
+    margin-bottom: 2rem;
+    color:hsl(224, 23%, 55%);
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+#payment:hover{
+    opacity:60%;
+}
+
+#cancel:hover{
+    color:hsl(0, 0%, 0%)
+}
+a:hover{
+    opacity: 60%;
+}
+@media (min-width: 375px){
+    section{
+        width:320px;
+    }
+    }
+ 
